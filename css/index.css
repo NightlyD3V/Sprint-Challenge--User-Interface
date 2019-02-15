@@ -183,6 +183,9 @@ nav a{
     margin: 20px 0px 20px 0px;
 }
 /*CARDS*/
+.card-title {
+    margin-top: 10px;
+}
 .image-card-1 {
     width: 350px;  
     margin: 0px 50px 30px 0px;
