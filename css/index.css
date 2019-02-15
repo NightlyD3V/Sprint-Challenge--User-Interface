@@ -161,12 +161,12 @@ nav a{
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    padding: 20px;
+    justify-content: space-between;
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+    width: 230px;
 }
 
 .bottom-content .text-container:last-child {
@@ -210,6 +210,11 @@ button {
     border-radius: 10px;
     background-color: white;
 }
+.bottom-content-about {
+    padding: 5px;
+    display: block;
+    margin: -20px 10px 30px 10px;
+}
 footer {
     width: 100%;
     background: black;
@@ -223,7 +228,6 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
 footer nav a {
     color: white;
     text-decoration: none;
