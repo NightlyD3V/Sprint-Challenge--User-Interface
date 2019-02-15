@@ -65,12 +65,27 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+/*START INDEX*/
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
+.navWrapper{
+    margin: 20px 0px 40px 0px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.jumbo {
+    margin-bottom: 20px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,28 +119,105 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background-color: black;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+/*SO MANY BOXES (easier way to do this?)*/
+.middle-content .boxes .box.box1 {
+    background-color: teal;
+}
+.middle-content .boxes .box.box2 {
+    background-color: gold;
+}
+.middle-content .boxes .box.box3 {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box.box4 {
+    background-color: coral;
+}
+.middle-content .boxes .box.box5 {
+    background-color: crimson;
+}
+.middle-content .boxes .box.box6 {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box.box7 {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box.box8 {
+    background-color: hotpink;
+}
+.middle-content .boxes .box.box9 {
+    background-color: indigo;
+}
+.middle-content .boxes .box.box10 {
+    background-color: dodgerblue;
+}
+/*END*/
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    padding: 20px;
+    justify-content: space-between;
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+    width: 230px;
 }
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+/*START ABOUT*/
+.about-section {
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0px 20px 0px;
+}
+/*CARDS*/
+.card-title {
+    margin-top: 10px;
+}
+.image-card-1 {
+    width: 350px;  
+    margin: 0px 50px 30px 0px;
+    border-bottom: 1px dashed black;
+}
+.image-card-2 {
+    width: 350px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+.image-card-3 {
+    width: 350px;
+    margin: 0px 50px 30px 0px;
+    border-bottom: 1px dashed black;
+}
+.image-card-4 {
+    width: 350px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+button {
+    padding: 8px;
+    width: 120px;
+    margin: 10px 0px 20px 0px;
+    border-radius: 10px;
+    background-color: white;
+}
+.bottom-content-about {
+    padding: 5px;
+    display: block;
+    margin: -20px 10px 30px 10px;
+}
 footer {
     width: 100%;
     background: black;
@@ -139,7 +231,6 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
 footer nav a {
     color: white;
     text-decoration: none;
